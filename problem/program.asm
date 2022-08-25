@@ -1,4 +1,4 @@
-(SETUP)
+/*(SETUP)
 	@80 // Pone el 80 en a
 	D=A // Pone el 80 en d
 	@0  
@@ -6,7 +6,7 @@
 	@66
 	D=A
 	@1
-	M=D //pone el 66 (b) en la direccion 1 de la memoria.
+	M=D //pone el 66 (b) en la direccion 1 de la memoria.*/
 
 (START)			// while (true)
 	@KBD
