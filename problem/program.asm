@@ -2,11 +2,11 @@
 	@83 // Pone el 83 en a
 	D=A // Pone el 83 en d
 	@0  
-	M=D //pone el 83 (p) en la direccion 0 de la memoria.
+	M=D //pone el 83 (S) en la direccion 0 de la memoria.
 	@84
 	D=A
 	@1
-	M=D //pone el 84 (b) en la direccion 1 de la memoria.
+	M=D //pone el 84 (T) en la direccion 1 de la memoria.
 
 (START)			// while (true)
 	@KBD
@@ -17,7 +17,7 @@
 	0;JMP
 
 (FILLORCLEAR)
-// if key = f --> draw else if key = c --> clear
+
 	@j
 	M=D 
 	@0  
