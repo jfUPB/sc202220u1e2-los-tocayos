@@ -9,9 +9,7 @@
 MEMORY[16] = 16384;
 
 while (true)
-
 {
-
 	if (MEMORY[KEYBOARD] != 0)
 	
 	{
@@ -22,23 +20,27 @@ while (true)
 		
 		{
 		
-			MEMORY[16] = MEMORY[16] + 1;
+			???MEMORY[16] = MEMORY[16] + 1;
 			
-			MEMORY[MEMORY[16]] = 0XFFFF;
+			??MEMORY[MEMORY[16]] = 0XFFFF;
 			
 		}
-		
-		else
-		
-		if (j == MEMORY[1])
-		
+
+		else if (j == MEMORY[1])
+	
 		{
 		
-			MEMORY[MEMORY[16]] = 0X0000;
+			??MEMORY[MEMORY[16]] = 0X0000;
 			
-			MEMORY[16] = MEMORY[16] - 1;
+			??MEMORY[16] = MEMORY[16] - 1;
 			
 		}
+		else{
+		    continue;
+		}
+		
+		??? DRAW , LOOP
 		
 
 	}
+}
