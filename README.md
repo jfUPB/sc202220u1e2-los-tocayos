@@ -6,11 +6,9 @@
 
 ## Codigo c++
 
-
+```cpp
 int value;
-
 while (true)
-
 {
 	if (MEMORY[KEYBOARD] != 0)
 	
@@ -58,3 +56,4 @@ while (true)
 	}
 	
 }
+
