@@ -17,7 +17,7 @@ repeat 1000000 {
 }
 output;              // test that the screen is white
 
-set RAM[24576] 83,    // key RAM[0] is pressed
+set RAM[24576] 48,    // key RAM[0] is pressed
 repeat 1000000 {
   ticktock;
 }
@@ -29,7 +29,7 @@ repeat 1000000 {
 }
 output;              // test that the screen is black
 
-set RAM[24576] 84,    // key RAM[1] is pressed
+set RAM[24576] 49,    // key RAM[1] is pressed
 repeat 1000000 {
   ticktock;
 }
