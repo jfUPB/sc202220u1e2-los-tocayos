@@ -6,7 +6,6 @@
 
 ## Codigo c++
 
-int i = 16384;
 
 int value;
 
@@ -34,6 +33,15 @@ while (true)
 			value = 0;
 			
 		}
+		else
+		
+		{
+		
+			continue;
+			
+		}
+		
+		int i = 16384;
 		
 		while (i < 24576)
 		
@@ -45,13 +53,7 @@ while (true)
 			
 		}
 		
-		else
-		
-		{
-		
-			continue;
-			
-		}
+
 
 	}
 	
